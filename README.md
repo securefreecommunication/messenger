@@ -20,4 +20,7 @@ Current implementation does not have open socket with the server so updates and 
 
 Server: Every information is kept on ram. each time server receives a message it holds the messages indexed by public key and delivers the messages when ever they are successfully delivere to recipient, after successful delivery the messages are dumped from the server ram and only exist on sender and recipient mahcines.
 
+## Usage
+The best practice is building the client ui with pyinstaller for linux or windows or cuild it for android with apk builders the instructions can be found at https://kivy.org/doc/stable/guide/packaging-android.html.
+
 
